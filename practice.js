@@ -11,37 +11,7 @@
 // for (let i=0; i<10; i++){
 //     console.log(i);
 // }
-console.log('count down') 
-for (i = 10; i > 0; i--) {
-     console.log(i);
-}
 
-console.log('even number')
-for (let i = 0; i< 10; i+=2) {
-     console.log(i);
- }
-
-
-// for (let i = 0; i< 10; i+=2) {
-//       console.log(i);
-//      }
-console.log('odd number')
-
-for (let i =1; i<10; i+=2) {
-    console.log(i);
-}
-
-console.log('multiple of 3')
-
-// for (let i = 3; i<=60; i+=3){
-//     console.log(i);
-// }
-
-// multiple of 3, starting form 6 till 60
-console.log ('multiple of 3')
-for (let i = 6; i<=60; i+=3){
-    console.log(i);
-}
 
 // Output an increasing number of # symbols, from 1 to 7, as shown below.
 
@@ -50,10 +20,65 @@ for (let i = 6; i<=60; i+=3){
 //         console.log (i); 
 //     }
     
-   console.log('# symbols');
+//    console.log('# symbols');
 
-   let symbol = '#'
-   for (let i=1; i<=7; i++) {
-    console.log(symbol);
-    symbol=symbol+'#'
-   }
+//    let symbol = '#'
+//    for (let i=1; i<=7; i++) {
+//     console.log(symbol);
+//     symbol=symbol+'#'
+//    }
+
+//    // 1-20 loops 
+
+//    for (let i=1; i<=20; i++) {
+//     if (i%2 === 0) {
+//         console.log(i, "is even");
+//     }
+//    }
+//   
+// Count down to 0 from a given number.
+
+//  
+// Log integers in multiples of 3 as long as they are less than 35.
+
+// let num1 =  0;
+// while (num1 <35 ) {
+//     num1+=3
+//     console.log(num1);
+// }
+
+// Print integers in multiples of 5 as 
+// long as they are less than 100.
+
+// let num2 = 0;
+// while (num2+=100) {
+//  num2+=5
+//  console.log(num2); 
+// }
+
+// Print integers in multiples of 5 as 
+// long as they are less than 100.
+
+
+// let num2 = 0;
+// while (num2<=100) {
+//     console.log(num2); 
+//  num2+=5
+
+// }
+
+// Print integers between 0 and 20 with the following conditions
+// all numbers divisible by 2 should be multiplied by 3 before they are output.
+
+let s = 0;
+while ( s % 2 === 0, s <= 20) {
+       if (s % 2 === 0)
+       {
+        console.log(s *3 );
+       }
+    console.log(s *3 );
+  
+    s++;
+    }
+    
+
