@@ -70,15 +70,4 @@
 // Print integers between 0 and 20 with the following conditions
 // all numbers divisible by 2 should be multiplied by 3 before they are output.
 
-let s = 0;
-while ( s % 2 === 0, s <= 20) {
-       if (s % 2 === 0)
-       {
-        console.log(s *3 );
-       }
-    console.log(s *3 );
-  
-    s++;
-    }
-    
-
+ 
