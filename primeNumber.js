@@ -1,45 +1,33 @@
-/*
+// program to check if a number is prime or not
 
-/*
-    for (let i = 2; i < input++; i++) 
-    {   
-        console.log(" value of i is  " + i);
-        console.log(" value of input is  " + input);
-        //console.log("is prime variable value is " + isprime);
-        if (input % 2 == 0 || input % 3 ==0 ) 
-        {
-          //  console.log("input varible value is " + input );
-          //  console.log("i varible value is " + i );
-          //  console.log("is prime variable value is " + isprime);
-            isprime = false;
-            break;
-        }
-        
+// take input from the user
+let number = 5;
+let isPrime = true;
+let test = number + 1;
+// check if number is equal to 1
+//if (test == 1) {
+//    console.log("enter number greater that 2");
+//}
+
+// check if number is greater than 1
+    // looping through 2 to number-1
+    for(let j = test ; j < test * 2 ; j++){
+        console.log("value of j is : " + j);
+    //    for (let i = 2; i < j; i++) {
+    //        if (j % i == 0) {
+    //            isPrime = false;
+    //            break;
+    //        }
+    //    }
+    }   
+    if (isPrime) {
+        console.log(`${number} is a prime number`);
+    } else {
+        console.log(`${number} is a not prime number`);
     }
 
-    console.log("next prime number is : " + input);
 
-    ----------------------------------*/
-
-    function isPrime(n) { 
-        // Corner case 
-        if (n <= 1) 
-            return false; 
-  
-        // Check from 2 to n-1 
-        for (let i = 2; i < n; i++) 
-            if (n % i == 0) 
-                return false; 
-  
-        return true; 
-    } 
-  
-    // Driver Code 
-  
-    isPrime(5)  
-        ? console.log("true")  
-        : console.log("false"); 
-
-
-
-
+// check if number is less than 1
+else {
+    console.log("The number is not a prime number.");
+}
